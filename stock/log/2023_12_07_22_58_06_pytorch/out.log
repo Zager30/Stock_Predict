@@ -1,0 +1,89 @@
+2023-12-07 22:58:06,463 - INFO - 
+Config:
+'add_train': False
+'batch_size': 64
+'continue_flag': ''
+'cur_time': '2023_12_07_22_58_06'
+'debug_mode': False
+'debug_num': 500
+'do_continue_train': False
+'do_figure_save': True
+'do_log_print_to_screen': True
+'do_log_save_to_file': True
+'do_predict': True
+'do_train': True
+'do_train_visualized': True
+'dropout_rate': 0.1
+'epoch': 20
+'feature_columns': [3, 4, 5, 6, 7]
+'figure_save_path': './figure/'
+'hidden_size': 128
+'input_size': 5
+'label_columns': [4, 5, 6]
+'label_in_feature_index': [1, 2, 3]
+'learning_rate': 0.001
+'log_save_path': './log/2023_12_07_22_58_06_pytorch/'
+'lstm_layers': 2
+'model_name': 'model_pytorch.pth'
+'model_postfix': {'pytorch': '.pth'
+'keras': '.h5'
+'tensorflow': '.ckpt'}
+'model_save_path': './checkpoint/pytorch/'
+'output_size': 3
+'patience': 5
+'predict_day': 1
+'random_seed': 42
+'shuffle_train_data': True
+'time_step': 50
+'train_data_path': './data/stock_data.csv'
+'train_data_rate': 0.95
+'use_cuda': False
+'used_frame': 'pytorch'
+'valid_data_rate': 0.2
+2023-12-07 22:58:06,748 - WARNING - Setting up a new session...
+2023-12-07 22:58:06,763 - INFO - Visdom successfully connected to server
+2023-12-07 22:58:06,848 - INFO - Epoch 0/20
+2023-12-07 22:58:11,136 - INFO - The train loss is 0.253024. The valid loss is 0.039607.
+2023-12-07 22:58:11,205 - INFO - Epoch 1/20
+2023-12-07 22:58:15,461 - INFO - The train loss is 0.030714. The valid loss is 0.022619.
+2023-12-07 22:58:15,481 - INFO - Epoch 2/20
+2023-12-07 22:58:19,535 - INFO - The train loss is 0.019761. The valid loss is 0.015625.
+2023-12-07 22:58:19,563 - INFO - Epoch 3/20
+2023-12-07 22:58:24,410 - INFO - The train loss is 0.014117. The valid loss is 0.011123.
+2023-12-07 22:58:24,430 - INFO - Epoch 4/20
+2023-12-07 22:58:28,459 - INFO - The train loss is 0.010701. The valid loss is 0.008393.
+2023-12-07 22:58:28,481 - INFO - Epoch 5/20
+2023-12-07 22:58:33,037 - INFO - The train loss is 0.008581. The valid loss is 0.006942.
+2023-12-07 22:58:33,057 - INFO - Epoch 6/20
+2023-12-07 22:58:37,009 - INFO - The train loss is 0.007466. The valid loss is 0.006150.
+2023-12-07 22:58:37,027 - INFO - Epoch 7/20
+2023-12-07 22:58:41,331 - INFO - The train loss is 0.006835. The valid loss is 0.005564.
+2023-12-07 22:58:41,341 - INFO - Epoch 8/20
+2023-12-07 22:58:45,630 - INFO - The train loss is 0.006352. The valid loss is 0.005220.
+2023-12-07 22:58:45,768 - INFO - Epoch 9/20
+2023-12-07 22:58:50,263 - INFO - The train loss is 0.005982. The valid loss is 0.005005.
+2023-12-07 22:58:50,284 - INFO - Epoch 10/20
+2023-12-07 22:58:54,150 - INFO - The train loss is 0.005680. The valid loss is 0.004780.
+2023-12-07 22:58:54,224 - INFO - Epoch 11/20
+2023-12-07 22:58:58,395 - INFO - The train loss is 0.005453. The valid loss is 0.004670.
+2023-12-07 22:58:58,410 - INFO - Epoch 12/20
+2023-12-07 22:59:02,852 - INFO - The train loss is 0.005356. The valid loss is 0.004665.
+2023-12-07 22:59:02,881 - INFO - Epoch 13/20
+2023-12-07 22:59:06,715 - INFO - The train loss is 0.005264. The valid loss is 0.004475.
+2023-12-07 22:59:06,728 - INFO - Epoch 14/20
+2023-12-07 22:59:10,725 - INFO - The train loss is 0.005121. The valid loss is 0.004429.
+2023-12-07 22:59:10,745 - INFO - Epoch 15/20
+2023-12-07 22:59:15,187 - INFO - The train loss is 0.005017. The valid loss is 0.004319.
+2023-12-07 22:59:15,246 - INFO - Epoch 16/20
+2023-12-07 22:59:19,355 - INFO - The train loss is 0.004935. The valid loss is 0.004273.
+2023-12-07 22:59:19,375 - INFO - Epoch 17/20
+2023-12-07 22:59:23,392 - INFO - The train loss is 0.004869. The valid loss is 0.004213.
+2023-12-07 22:59:23,412 - INFO - Epoch 18/20
+2023-12-07 22:59:27,500 - INFO - The train loss is 0.004749. The valid loss is 0.004141.
+2023-12-07 22:59:27,518 - INFO - Epoch 19/20
+2023-12-07 22:59:31,527 - INFO - The train loss is 0.004700. The valid loss is 0.004106.
+2023-12-07 22:59:31,592 - INFO - The mean squared error of stock ['high', 'low', 'close'] is [0.00061948 0.00040184 0.00074304]
+2023-12-07 22:59:31,645 - INFO - The predicted stock high for the next 1 day(s) is: 9.78758910083394
+2023-12-07 22:59:31,839 - INFO - The predicted stock low for the next 1 day(s) is: 9.558302916580313
+2023-12-07 22:59:31,946 - INFO - The predicted stock close for the next 1 day(s) is: 9.672937875625884
+2023-12-07 22:59:32,835 - INFO - ‘§≤‚“—ÕÍ≥…°£
